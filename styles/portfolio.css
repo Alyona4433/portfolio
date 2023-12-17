@@ -63,6 +63,11 @@ p {
     
 }
 
+/* img {
+  border-radius: 15px;
+  width: 2000px;
+} */
+
 .content-container {
   padding: 160px 20px;
   text-align: center;
@@ -70,6 +75,7 @@ p {
 
 .content {
   margin: 30px;
+  text-align: center;
 }
 
 .content-container h1 {
@@ -114,8 +120,8 @@ line-height: 80px;
 }
 
 .logo {
-  max-width: 150px;
-  margin-left: 30PX;
+  max-height: 100px;
+  margin-left: 10PX;
 }
 
 nav {
@@ -131,7 +137,7 @@ nav li {
   display: inline;
   list-style: none;
   line-height: 40px;
-  margin-left: 40px;
+  margin-left: 15px;
   margin-top: 20px;
  
 }
@@ -141,6 +147,7 @@ nav a {
  color: #272142;
  transition: all 100ms ease-in-out;
  font-size: 24px;
+ font-family: var(--heading-font-family);
 }
 
 nav a:hover,
